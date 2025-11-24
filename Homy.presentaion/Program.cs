@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Identity;
+using Homy.Domin.models;
+using Microsoft.EntityFrameworkCore;
+using Homy.Infurastructure.Data;
 namespace Homy.presentaion
 {
     public class Program
@@ -9,6 +13,12 @@ namespace Homy.presentaion
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddIdentity<User, IdentityRole<Guid>>()
+                .AddEntityFrameworkStores<HomyContext>()
+                .AddDefaultTokenProviders();
+
+            builder.Services.AddDbContext<HomyContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

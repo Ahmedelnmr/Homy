@@ -1,0 +1,13 @@
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\bin\Debug\net8.0\Homy.Application.deps.json
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\bin\Debug\net8.0\Homy.Application.dll
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\bin\Debug\net8.0\Homy.Application.pdb
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.csproj.AssemblyReference.cache
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.AssemblyInfoInputs.cache
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.AssemblyInfo.cs
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.csproj.CoreCompileInputs.cache
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.sourcelink.json
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.dll
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\refint\Homy.Application.dll
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\Homy.Application.pdb
+D:\ITI Materials .Net\Homy\Homy\Homy.Application\obj\Debug\net8.0\ref\Homy.Application.dll
