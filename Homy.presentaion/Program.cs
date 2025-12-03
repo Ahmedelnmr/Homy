@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Homy.Domin.models;
 using Microsoft.EntityFrameworkCore;
 using Homy.Infurastructure.Data;
+using Homy.Application;
 namespace Homy.presentaion
 {
     public class Program
@@ -19,6 +20,8 @@ namespace Homy.presentaion
 
             builder.Services.AddDbContext<HomyContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddApplicationServices();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
